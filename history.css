@@ -1,0 +1,122 @@
+/* KEONJHAR HISTORY PAGE */
+
+.page-container{
+    padding: 90px 8%;
+    background: #f4f8ef;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.section-title h2{
+    font-size: 42px;
+    color: #1f4d2e;
+    margin-bottom: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-title p{
+    max-width: 850px;
+    margin: auto;
+    color: #5b5b5b;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.history-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 28px;
+    margin-top: 45px;
+}
+
+.history-box{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px 28px 10px 28px;
+    border-left: 6px solid #2f7d46;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.09);
+    transition: 0.3s;
+}
+
+.history-box:nth-child(2){
+    border-left-color: #8a6f2a;
+}
+
+.history-box:nth-child(3){
+    border-left-color: #2d6f8f;
+}
+
+.history-box:nth-child(4){
+    border-left-color: #7a4f2a;
+}
+
+.history-box:nth-child(5){
+    border-left-color: #6b4c8a;
+}
+
+.history-box:nth-child(6){
+    border-left-color: #226f68;
+}
+
+.history-box:hover{
+    transform: translateY(-7px);
+    background: #fffdf2;
+}
+
+.history-box h3{
+    font-size: 25px;
+    color: #1f4d2e;
+    margin-bottom: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.history-box p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.85;
+    margin-bottom: 14px;
+    text-align: justify;
+}
+
+@media(max-width: 768px){
+
+    .page-container{
+        padding: 70px 5%;
+    }
+
+    .section-title h2{
+        font-size: 33px;
+    }
+
+    .section-title p{
+        font-size: 16px;
+    }
+
+    .history-box{
+        padding: 24px;
+    }
+
+    .history-box h3{
+        font-size: 22px;
+    }
+
+}
+
+@media(max-width: 480px){
+
+    .history-container{
+        grid-template-columns: 1fr;
+    }
+
+    .section-title h2{
+        font-size: 28px;
+    }
+
+    .history-box p{
+        font-size: 15px;
+    }
+
+}
