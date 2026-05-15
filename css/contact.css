@@ -1,0 +1,73 @@
+/* KEONJHAR CONTACT PAGE */
+
+.page-container{
+    padding: 90px 8%;
+    background: #f1f7ec;
+}
+
+.contact-form{
+    max-width: 720px;
+    margin: auto;
+    background: #ffffff;
+    padding: 42px;
+    border-radius: 20px 8px 20px 8px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.10);
+    border-left: 6px solid #2f7d46;
+}
+
+.input-box{
+    margin-bottom: 22px;
+}
+
+.input-box label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #214f32;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #cfd8c8;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    background: #fbfff8;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border-color: #2f7d46;
+    box-shadow: 0 0 6px rgba(47,125,70,0.25);
+}
+
+.contact-form button{
+    background: #2f7d46;
+    color: white;
+    border: none;
+    padding: 14px 34px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.contact-form button:hover{
+    background: #214f32;
+    transform: translateY(-4px);
+}
+
+@media(max-width:768px){
+
+    .page-container{
+        padding: 70px 5%;
+    }
+
+    .contact-form{
+        padding: 28px;
+    }
+
+}
